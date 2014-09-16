@@ -1,0 +1,77 @@
+header {
+    height:100px;
+    background-color:#F16251;
+    border-bottom: 3px #5a5a5a solid;
+    margin-bottom: 2%;
+}
+
+header > h1 {
+    text-shadow: 1px 1px 5px #3F3F3F;
+    font-size: 50px;
+    font-weight: bold;
+    color:#212121;
+}
+
+.well {
+    padding: 6px 15px;
+    margin-bottom: 0;
+    border: 0;
+    color: transparent;
+}
+
+.well > h3 {
+    margin-top: 5px;
+    font-weight: bold;
+    color:#212121;
+}
+
+.transitive-block {
+    -webkit-transition: width 2s, height 2s, color 2s, background-color 2s, box-shadow 2s;
+    -moz-transition: width 2s, height 2s, color 2s, background-color 2s, box-shadow 2s;
+    -ms-transition: width 2s, height 2s, color 2s, background-color 2s, box-shadow 2s;
+    -o-transition: width 2s, height 2s, color 2s, background-color 2s, box-shadow 2s;
+    transition: width 2s, height 2s, color 2s, background-color 2s, box-shadow 2s;
+    box-shadow: 0 0 0 0 #000, 0 0 0 0 #000;
+    width: 10vw;
+    height: 20vh;
+    overflow: hidden;
+}
+
+.transitive-block a {
+    color: #2f4b78;
+}
+
+.about-block {
+    background-color: #3096d1;
+}
+
+.contact-block {
+    background-color: #ffa022;
+}
+
+.projects-block {
+    background-color: orangered;
+}
+
+.transitive-block:hover {
+    color: #000000;
+    width: 50vw;
+    height: 40vh;
+    box-shadow: 8px 0 10px -4px #888, -8px 0 10px -4px #888;
+}
+
+.about-block:hover {
+    background-color: #59d16c;
+}
+
+.contact-block:hover {
+    background-color: #32d5ff;
+}
+
+.projects-block:hover {
+    background-color: #fea900;
+}
+
+footer {
+    width: 15vw;
+}
